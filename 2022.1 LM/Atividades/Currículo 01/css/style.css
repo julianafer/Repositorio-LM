@@ -1,0 +1,37 @@
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  color: darkblue;
+}
+h2 {
+  font-size: 24px;
+  background-color: lightskyblue;
+  color: darkblue;
+}
+a, a:visited {
+  text-decoration: none;
+  color: darkblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+.final {
+  text-align:center;
+}
+#elon, #elon:visited{
+  color:white;
+}
+h1:hover #elon{
+  color:darkblue;
+}
+.links, .links:visited{
+  color: lightskyblue;
+}
+h2:hover .links{
+  color:darkblue;
+}

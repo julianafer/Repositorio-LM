@@ -1,0 +1,24 @@
+table, td, th {
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(3n+1) > td:first-child {
+    vertical-align: middle;
+}
+
+tfoot td {
+    text-align: center;
+}
+
+body > p:nth-child(4) {
+    color: red;
+}
+
+/*tbody tr:nth-child(2) {
+    background-color: rgb(230, 230,230);
+}*/
+
+.cinza {
+    background-color: rgb(240, 240,240);
+}

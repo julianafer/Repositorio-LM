@@ -1,0 +1,22 @@
+table, td, th {
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(3n+1) > td:first-child {
+    vertical-align: middle;
+}
+
+tfoot td {
+    text-align: center;
+}
+
+body > p:nth-child(4) {
+    color: red;
+}
+/*é o segundo p mas é o 4º filho do body*/
+
+/*div > p:nth-child(2n-1) {
+    color: green;
+}*/
+/*(2n-1)-ímpares (2n)-pares*/ 

@@ -1,0 +1,31 @@
+#h1-card {
+    display: block;
+    border: 1px dashed #000000;
+    border-top-width: 10px;
+    margin: 0 0 0 0;
+    /*padding: dt dr db dl*/
+    /*padding: vertical horizontal*/
+    padding: 30px 10px;
+    width: 50%;
+    min-width: 200px;
+    border-radius: 5px 15px 5px 15px;
+    /*box-shadow: x y espalhamento cor*/
+    box-shadow: 
+    5px 5px 2px #bbb, 
+    6px 6px 2px #888;
+}
+
+h1 {
+    border: 1px solid black;
+    border-right-width: 10px;
+    /*box-sizing: content-box;*/
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 10px;
+}
+
+a {
+    display: inline-block;
+    width: 150px;
+    height: 120px;
+}

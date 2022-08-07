@@ -1,0 +1,26 @@
+div {
+    width: 100%;
+    height: 180px;
+    border: 1px solid black;
+    /*background-image: url(https://estudante.ifpb.edu.br/static/ps/imagens/ifpb-vertical.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: local;*/
+    background: url(https://estudante.ifpb.edu.br/static/ps/imagens/ifpb-vertical.png) center/20% no-repeat local;
+    
+    background-color: rgba(210, 0, 0, 1);
+    filter: grayscale(90%);
+    /*background-blend-mode: overlay;
+    background-position: bottom 10px right 20px;
+    background-size: 50px;*/
+}
+
+#linear-gradient {
+    margin-top: 10px;
+    /*background-image: linear-gradient(hsl(30, 50%, 50%), hsl(80, 50%, 50%));*/
+    background-image: radial-gradient(#fff, orange, #000);
+}
+
+span {
+    color: pink;
+}

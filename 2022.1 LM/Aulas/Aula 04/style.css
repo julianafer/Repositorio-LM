@@ -1,0 +1,24 @@
+html{
+    /*background-color: rgb(200,200,200);*/
+    background-image: url("https://criptonizando.com/wp-content/uploads/2022/03/elon-musk-10.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:100%;
+}
+body {
+    color: darkslategrey;
+    background-color: whitesmoke;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+}
+h2, h2 a{
+    color: darkblue;
+    background-color: lightskyblue;
+}
+h2 a:any-link{
+    color: lightskyblue;
+    /*mistura do 'a' com o 'a:visited'*/
+}
+h2:hover a {
+    color: darkblue;
+}

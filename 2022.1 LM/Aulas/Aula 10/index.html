@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tabelas!</h1>
+    <h2>Disciplinas de TSI - 1º e 2º períodos</h2>
+    <!--<div>-->
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+        <p>Parágrafo 4</p>
+    <!--</div>-->
+    <table>
+        <thead> <!-- tr -> table head -->
+            <tr>
+                <th>Período</th> <!-- tr -> table head -->
+                <th>Algumas disciplinas</th>
+            </tr>
+        </thead>
+        <tbody> <!-- tr -> table body -->
+            <!-- CSS tbody tr > td:first-child -->
+        <tr> <!-- tr -> Table Row -->
+            <td rowspan="3">1º período</td> <!-- tr -> Table Data -->
+            <td>LM</td>
+        </tr>
+        <tr>
+            <!-- CSS tbody tr > td:first-child -->
+            <td>Algorítimos</td>
+        </tr>
+        <tr>
+            <!-- CSS tbody tr > td:first-child -->
+            <td>Português</td>
+        </tr>
+        <tr>
+            <!-- CSS tbody tr > td:first-child -->
+            <td rowspan="3">2º período</td>
+            <td>LS</td>
+        </tr>
+        <tr>
+            <td>Estrutura de Dados</td>
+        </tr>
+        <tr>
+            <td>Inglês</td>
+        </tr>
+        </tbody>
+        <tfoot> <!-- tr -> table foot -->
+            <td colspan="2">Fonte: Ementa de TSI 2022.1</td>
+        </tfoot>
+    </table>
+</body>
+</html>

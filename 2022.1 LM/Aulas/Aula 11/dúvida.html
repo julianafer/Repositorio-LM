@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*body > p{
+            color: green;
+        }*/
+
+        p:nth-child(3) ~ p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Parágrafo 1</p>
+    <span>Bloco de span</span>
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+    <p>Parágrafo 4</p>
+    <div>
+        <p>Parágrafo 5 (dentro da div)</p>
+        <p>Parágrafo 6 (dentro da div)</p>
+    </div>
+</body>
+</html>

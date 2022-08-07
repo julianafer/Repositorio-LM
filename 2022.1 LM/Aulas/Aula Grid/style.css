@@ -1,0 +1,34 @@
+main {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-gap: 5px;
+    column-gap: 15px;
+    border: 1px solid black;
+
+    grid-template-areas: 
+     'cabecalho cabecalho'
+     'menu-nav card-noticia'
+     'menu-nav card-noticia'
+     'menu-nav espaco-branco'
+     'rodape rodape';
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main > div {
+    background: red;
+    color: white;
+    font-size: 14pt;
+}
+
+main > div:nth-of-type(1) {
+    grid-column: span 2;
+}
+
+main > div:nth-of-type(2) {
+    grid-area: menu-nav;
+}
+
+main > div:nth-of-type(5) {
+    grid-area: rodape;
+    grid-column: 1 / 3;
+}
